@@ -1,0 +1,43 @@
+body{
+    background-color: #f0D6Db;
+}
+.navbar {
+    background-color: #ACCA9A;
+    border-radius: 30px;
+    position: sticky;
+    top: 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.navbar li a {
+    padding: 3px 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: #CAA1A1;
+}
+
+.navbar li a:active {
+    color: #FF9797;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #CAA1A1;
+    text-align: center;
+    color: white
+  }
+  
