@@ -13,39 +13,58 @@
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about me</a></li>
+                <li><a href="ammonite.html">ammonite</a></li>
+                <li><a href="neckpoint.html">neckpoint</a></li>
             </ul>
         </nav>
     </navbar>
-    <div class="gallery">
-        <a target="_blank" href="photos/DSC-1622.jpg">
-          <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
+
+    <div class="main-container">
+      <h1>WESTWOOD PARK</h1>
+
+      <div class="gallery-container">
+        
+        <div class="gallery" id="WestwoodView">
+          <img src="photos/DSC-1622 (1).jpg" alt="Westwood View" width="600" height="400">
+          <div class="desc">Views of the mountain</div>
+        </div>
+          
+          <div class="gallery" id="ViewofNanaimo">
+            <img src="photos/DSC-1630 (1).jpg" alt="View of Nanaimo" width="600" height="400">
+            <div class="desc">You can see all of Nanaimo !</div>
+          </div>
+          
+          <div class="gallery" id="NorthNanaimo">
+            <img src="photos/IMG-8863.jpg" alt="North Nanaimo" width="600" height="400">
+            <div class="desc">On the way up.</div>
+          </div>
+          
+          <div class="gallery" id="Jasper">
+            <img src="photos/IMG-8869.jpg" alt="Jasper" width="600" height="400">
+            <div class="desc">Photo time</div>
+          </div>
+          
       </div>
+
+      <div id="galleryModal" class="modal-container">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" id="close">&times;</span>
+          <div id="galleryInfo"></div>
+        </div>
       
-      <div class="gallery">
-        <a target="_blank" href="img_forest.jpg">
-          <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
       </div>
+
+    <div class="footer">
+      <p>
+        <a href="mailto:wemwils0@gmail.com">Contact me !</a>
+      </p>
+    </div>
       
-      <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-          <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-      
-      <div class="gallery">
-        <a target="_blank" href="img_mountains.jpg">
-          <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-<div class="footer">
-    <p>contact</p>
-</div>
+
+
+<script src="script/script.js"></script>
+
 </body>
 </html>

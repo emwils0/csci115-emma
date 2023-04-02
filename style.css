@@ -1,5 +1,14 @@
 body{
     background-color: #f0D6Db;
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  border-bottom: 3px dashed #fff;
+  margin: 50px 0;
 }
 .navbar {
     background-color: #ACCA9A;
@@ -40,11 +49,43 @@ body{
     text-align: center;
     color: white
   }
+
+  .footer a {
+    color: white;
+  }
+
+  .footer a:hover {
+    color:#ACCA9A
+  }
+
+  .footer a:active {
+    color:#FF9797
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+  }
+
   div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+    margin: 25px 50px;
+    padding:5px;
+    border: 3px solid #ACCA9A;
+    border-radius: 10px;
     float: left;
-    width: 180px;
+    width: 250px;
   }
   
   div.gallery:hover {
@@ -60,3 +101,83 @@ body{
     padding: 15px;
     text-align: center;
   }
+
+  .modal-container {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0D6Db;
+    padding: 20px;
+    border: 1px solid #888;
+    width:  50%;
+    height: 50%;
+    border-radius: 15px;
+    border: 1px solid #000;
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    color: #aaa;
+    top: 5px;
+    right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Home ----------------------------------------------------------------------------- */
+
+  .home {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .showcase-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .showcase-container img {
+    margin: 15px;
+  }
+
+  .showcase-container #img1 {
+    border: 10px solid #ACCA9A
+  }
+
+  .showcase-container #img2 {
+    border: 10px solid #CAA1A1
+  }
+
+  .showcase-container #img3 {
+    border: 10px solid #fefefe
+  }
+
+  .placelist {
+    font-size: larger;
+    margin-left: 10px;
+  }
+
+  
